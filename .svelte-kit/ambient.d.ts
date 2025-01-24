@@ -57,8 +57,8 @@ declare module '$env/static/private' {
 	export const npm_package_devDependencies_eslint_plugin_svelte: string;
 	export const npm_package_devDependencies_eslint_config_prettier: string;
 	export const XDG_DATA_HOME_VSCODE_SNAP_ORIG: string;
-	export const GTK_IM_MODULE_FILE: string;
 	export const GIO_LAUNCHED_DESKTOP_FILE: string;
+	export const GTK_IM_MODULE_FILE: string;
 	export const ZSH: string;
 	export const LSCOLORS: string;
 	export const NVM_INC: string;
@@ -69,6 +69,7 @@ declare module '$env/static/private' {
 	export const PAGER: string;
 	export const HOMEBREW_PREFIX: string;
 	export const VSCODE_GIT_ASKPASS_MAIN: string;
+	export const YARN_WRAP_OUTPUT: string;
 	export const npm_package_devDependencies_svelte_check: string;
 	export const npm_config_version_tag_prefix: string;
 	export const MANAGERPID: string;
@@ -112,8 +113,8 @@ declare module '$env/static/private' {
 	export const PATH: string;
 	export const NODE: string;
 	export const SESSION_MANAGER: string;
-	export const GTK_EXE_PREFIX: string;
 	export const INVOCATION_ID: string;
+	export const GTK_EXE_PREFIX: string;
 	export const HOMEBREW_CELLAR: string;
 	export const npm_package_devDependencies_typescript_eslint: string;
 	export const npm_package_name: string;
@@ -130,17 +131,17 @@ declare module '$env/static/private' {
 	export const VSCODE_INJECTION: string;
 	export const npm_package_devDependencies_eslint: string;
 	export const GIO_MODULE_DIR_VSCODE_SNAP_ORIG: string;
-	export const XDG_DATA_HOME: string;
 	export const XMODIFIERS: string;
 	export const XDG_SESSION_DESKTOP: string;
 	export const XAUTHORITY: string;
+	export const XDG_DATA_HOME: string;
 	export const LS_COLORS: string;
 	export const TERM_PROGRAM: string;
 	export const VSCODE_GIT_IPC_HANDLE: string;
 	export const npm_lifecycle_script: string;
 	export const SSH_AUTH_SOCK: string;
-	export const GSETTINGS_SCHEMA_DIR: string;
 	export const ORIGINAL_XDG_CURRENT_DESKTOP: string;
+	export const GSETTINGS_SCHEMA_DIR: string;
 	export const npm_package_devDependencies__tailwindcss_typography: string;
 	export const npm_package_devDependencies__sveltejs_kit: string;
 	export const npm_package_scripts_test: string;
@@ -181,6 +182,7 @@ declare module '$env/static/private' {
 	export const MEMORY_PRESSURE_WRITE: string;
 	export const npm_package_devDependencies__tailwindcss_container_queries: string;
 	export const INIT_CWD: string;
+	export const NODE_ENV: string;
 }
 
 /**
@@ -243,8 +245,8 @@ declare module '$env/dynamic/private' {
 		npm_package_devDependencies_eslint_plugin_svelte: string;
 		npm_package_devDependencies_eslint_config_prettier: string;
 		XDG_DATA_HOME_VSCODE_SNAP_ORIG: string;
-		GTK_IM_MODULE_FILE: string;
 		GIO_LAUNCHED_DESKTOP_FILE: string;
+		GTK_IM_MODULE_FILE: string;
 		ZSH: string;
 		LSCOLORS: string;
 		NVM_INC: string;
@@ -255,6 +257,7 @@ declare module '$env/dynamic/private' {
 		PAGER: string;
 		HOMEBREW_PREFIX: string;
 		VSCODE_GIT_ASKPASS_MAIN: string;
+		YARN_WRAP_OUTPUT: string;
 		npm_package_devDependencies_svelte_check: string;
 		npm_config_version_tag_prefix: string;
 		MANAGERPID: string;
@@ -298,8 +301,8 @@ declare module '$env/dynamic/private' {
 		PATH: string;
 		NODE: string;
 		SESSION_MANAGER: string;
-		GTK_EXE_PREFIX: string;
 		INVOCATION_ID: string;
+		GTK_EXE_PREFIX: string;
 		HOMEBREW_CELLAR: string;
 		npm_package_devDependencies_typescript_eslint: string;
 		npm_package_name: string;
@@ -316,17 +319,17 @@ declare module '$env/dynamic/private' {
 		VSCODE_INJECTION: string;
 		npm_package_devDependencies_eslint: string;
 		GIO_MODULE_DIR_VSCODE_SNAP_ORIG: string;
-		XDG_DATA_HOME: string;
 		XMODIFIERS: string;
 		XDG_SESSION_DESKTOP: string;
 		XAUTHORITY: string;
+		XDG_DATA_HOME: string;
 		LS_COLORS: string;
 		TERM_PROGRAM: string;
 		VSCODE_GIT_IPC_HANDLE: string;
 		npm_lifecycle_script: string;
 		SSH_AUTH_SOCK: string;
-		GSETTINGS_SCHEMA_DIR: string;
 		ORIGINAL_XDG_CURRENT_DESKTOP: string;
+		GSETTINGS_SCHEMA_DIR: string;
 		npm_package_devDependencies__tailwindcss_typography: string;
 		npm_package_devDependencies__sveltejs_kit: string;
 		npm_package_scripts_test: string;
@@ -367,6 +370,7 @@ declare module '$env/dynamic/private' {
 		MEMORY_PRESSURE_WRITE: string;
 		npm_package_devDependencies__tailwindcss_container_queries: string;
 		INIT_CWD: string;
+		NODE_ENV: string;
 		[key: `PUBLIC_${string}`]: undefined;
 		[key: `${string}`]: string | undefined;
 	}
