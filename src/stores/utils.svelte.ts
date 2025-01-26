@@ -1,10 +1,9 @@
-
 export const touchDeviceState = $state({
-	isTouchDevice: false,
-	isInit: false
-})
+  isTouchDevice: false,
+  isInit: false,
+});
 
 export const setIsTouchDevice = (value: boolean) => {
-	touchDeviceState.isTouchDevice = value;
-	touchDeviceState.isInit = true;
+  touchDeviceState.isTouchDevice = value;
+  touchDeviceState.isInit = true;
 };

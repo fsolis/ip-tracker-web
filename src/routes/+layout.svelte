@@ -5,21 +5,34 @@
   import mobileBg from "$lib/images/pattern-bg-mobile.png";
   import { isMdScreen } from "../stores/dims.svelte";
   import { onMount } from "svelte";
+  import { currentLocationLatLng } from "../stores/location.svelte";
 
   let { children } = $props();
 
-  let map;
+  let map: L.Map;
 
   const bgImage = $isMdScreen ? desktopBg : mobileBg;
 
   onMount(() => {
-    map = L.map("map").setView([51.505, -0.09], 18);
+    map = L.map("map").setView(
+      [currentLocationLatLng.loc.lat, currentLocationLatLng.loc.lng],
+      17
+    );
 
     L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
       maxZoom: 17,
       attribution:
         '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
     }).addTo(map);
+  });
+
+  $effect(() => {
+    if (map) {
+      map.setView(
+        [currentLocationLatLng.loc.lat, currentLocationLatLng.loc.lng],
+        17
+      );
+    }
   });
 </script>
 

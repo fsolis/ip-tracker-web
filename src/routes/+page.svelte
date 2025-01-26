@@ -1,9 +1,19 @@
 <script>
-  import desktopBg from "$lib/images/pattern-bg-desktop.png";
-  import mobileBg from "$lib/images/pattern-bg-mobile.png";
-  import { isMdScreen } from "../stores/dims.svelte";
+  import { onMount } from "svelte";
+  import { currentLocationLatLng } from "../stores/location.svelte";
 
-  const bgImage = $isMdScreen ? desktopBg : mobileBg;
+  onMount(() => {
+    if (navigator.geolocation) {
+      navigator.geolocation.getCurrentPosition((position) => {
+        console.log(position.coords.latitude, position.coords.longitude);
+
+        currentLocationLatLng.loc = {
+          lat: position.coords.latitude,
+          lng: position.coords.longitude,
+        };
+      });
+    }
+  });
 </script>
 
 <div class="relative flex flex-col flex-grow mx-auto">
