@@ -26,7 +26,7 @@
 </script>
 
 <div class="relative flex flex-col flex-grow mx-auto">
-  <h1 class="font-bold text-3xl text-white text-center mb-8">
+  <h1 class="font-bold text-xl md:text-3xl text-white text-center mb-4 md:mb-8">
     IP Address Tracker
   </h1>
 
@@ -38,7 +38,7 @@
       bind:value={$inputValue}
       type="text"
       placeholder="Search for any IP address or domain"
-      class="w-full px-8 py-5 rounded-l-xl outline-none bg-white font-bold"
+      class="w-full px-5 md:px-8 py-3 md:py-5 rounded-l-xl outline-none bg-white font-bold"
     />
 
     <button
