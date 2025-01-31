@@ -29,24 +29,24 @@
 // }
 
 export type GeoifyResponse = {
-    readonly ip: string;
-    readonly location: {
-        readonly country: string;
-        readonly region: string;
-        readonly city: string;
-        readonly lat: number;
-        readonly lng: number;
-        readonly postalCode: string;
-        readonly timezone: string;
-        readonly geonameId: number;
-    };
-    readonly domains: readonly string[];
-    readonly as: {
-        readonly asn: number;
-        readonly name: string;
-        readonly route: string;
-        readonly domain: string;
-        readonly type: string;
-    };
-    readonly isp: string;
+  readonly ip: string;
+  readonly location: {
+    readonly country: string;
+    readonly region: string;
+    readonly city: string;
+    readonly lat: number;
+    readonly lng: number;
+    readonly postalCode: string;
+    readonly timezone: string;
+    readonly geonameId: number;
+  };
+  readonly domains: readonly string[];
+  readonly as: {
+    readonly asn: number;
+    readonly name: string;
+    readonly route: string;
+    readonly domain: string;
+    readonly type: string;
+  };
+  readonly isp: string;
 };
