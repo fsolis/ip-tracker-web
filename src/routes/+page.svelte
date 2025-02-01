@@ -43,7 +43,7 @@
 
     <button
       disabled={isSubmitting}
-      class="ml-0 px-5 py-3 bg-black text-white rounded-r-lg"
+      class="ml-0 px-8 py-3 bg-black text-white rounded-r-xl"
       onclick={handleSubmit}
     >
       <img class="h-4 w-4" src={SEARCH_ICON} alt="search" />

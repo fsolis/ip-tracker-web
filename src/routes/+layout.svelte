@@ -54,7 +54,7 @@
 
 <main class="h-full pb-0 pt-5 md:pt-10 px-5 md:px-10 p-0">
   <div
-    class="absolute grid grid-rows-[40vh_1fr] md:grid-rows-[30vh_1fr] h-screen bottom-0 top-0 left-0 right-0 z-0"
+    class="absolute grid grid-rows-[40vh_1fr] md:grid-rows-[35vh_1fr] h-screen bottom-0 top-0 left-0 right-0 z-0"
   >
     <div class="bg-cover" style="background-image: url({bgImage});"></div>
     <div class="relative">

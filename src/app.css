@@ -5,4 +5,10 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
+  font-family: 'Rubik', sans-serif;
+}
+
+@theme {
+  --color-very-dark-gray: hsl(0, 0%, 17%);
+  --color-dark-gray: hsl(0, 0%, 59%);
 }
