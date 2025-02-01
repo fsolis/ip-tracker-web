@@ -9,56 +9,56 @@
     <div
       class="flex flex-col flex-grow md:border-r border-gray-300 md:mr-3 md:px-3"
     >
-      <h5
+      <h2
         class="uppercase text-sm md:text-base font-bold text-gray-600 text-center md:text-start"
       >
         IP Address
-      </h5>
-      <h2
+      </h2>
+      <p
         class="mb-4 md:mb-0 md:mt-4 text-xl md:text-3xl font-bold text-center md:text-start"
       >
         {ipInfo.ip}
-      </h2>
+      </p>
     </div>
     <div
       class="flex flex-col flex-grow md:border-r border-gray-300 md:mr-3 md:px-3"
     >
-      <h5
+      <h2
         class="uppercase text-sm md:text-base font-bold text-gray-600 text-center md:text-start"
       >
         Location
-      </h5>
-      <h2
+      </h2>
+      <p
         class="mb-4 md:mb-0 md:mt-4 text-xl md:text-3xl font-bold text-center md:text-start"
       >
         {ipInfo.location}
-      </h2>
+      </p>
     </div>
     <div
       class="flex flex-col flex-grow md:border-r border-gray-300 md:mr-3 md:px-3"
     >
-      <h5
+      <h2
         class="uppercase text-sm md:text-base font-bold text-gray-600 text-center md:text-start"
       >
         Timezone
-      </h5>
-      <h2
+      </h2>
+      <p
         class="mb-4 md:mb-0 md:mt-4 text-xl md:text-3xl font-bold text-center md:text-start"
       >
         {ipInfo.timezone}
-      </h2>
+      </p>
     </div>
     <div class="flex flex-col flex-grow md:mr-3 md:px-3">
-      <h5
+      <h2
         class="uppercase text-sm md:text-base font-bold text-gray-600 text-center md:text-start"
       >
         ISP
-      </h5>
-      <h2
+      </h2>
+      <p
         class="md:mt-4 text-xl md:text-3xl font-bold text-center md:text-start"
       >
         {ipInfo.isp}
-      </h2>
+      </p>
     </div>
   </div>
 </div>
